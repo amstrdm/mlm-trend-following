@@ -3,7 +3,7 @@
 This repository provides an automated system in Python that replicates a **trend-following approach** similar to the Mount Lucas Management (MLM) Index methodology.
 The Mount Lucas Management Index works using a Moving average 200 Day Crossover Strategy and is a trend following strategy. It's obvious that trend following strategys work best in volatile environments so I built upon the strategy by introducing a function which checks the volatility of the futures contracts and only trades the strategy if volatility is above a certain (by the user specified) threshold.
 
-**Since I'm currently busy with other bigger projects I wrote this up quickly in a few hours. I did want to do this project because I htought it was inetersting how a fund like MLM would use such a simplistic strategy. However this means the code is far from production ready. I listed the main features missing down below I may return to this when I have more time on my hands but for now if you'd like to contribute just send me a PR**
+**Since I'm currently busy with other bigger projects I wrote this up quickly in a few hours. I did want to do this project because I thought it was interesting how a fund like MLM would use such a simplistic strategy. However this means the code is far from production ready. I listed the main features that are missing down below I may return to this when I have more time on my hands but for now if you'd like to contribute just send me a PR**
 
 The script:
 
